@@ -1,0 +1,13 @@
+[package]
+name = "sima-app"
+version = "0.1.0"
+description = "Aplikasi SIMA"
+
+[app]
+exec = "php-server"
+
+[fs]
+"/" = "."
+
+[env]
+DOCUMENT_ROOT = "public"
